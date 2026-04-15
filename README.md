@@ -1,18 +1,17 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Discoloration: The Matrix Puzzle
 
-# Run and deploy the app
+Discoloration is a browser-based logic puzzle inspired by Lights Out. Each move flips the selected cell and its orthogonal neighbors, and the goal is to restore the entire grid to an active state in as few moves as possible.
 
-This project runs fully local and does not require any AI API key.
+## Local development
 
-## Run Locally
+1. Install dependencies with `npm install`
+2. Start the dev server with `npm run dev`
+3. Run the project checks with `npm run check`
+4. Create a production build with `npm run build`
 
-**Prerequisites:** Node.js
+## What is included
 
-1. Install dependencies:
-   `npm install`
-2. Start the app:
-   `npm run dev`
-3. Build for production:
-   `npm run build`
+- Progressive levels from `3x3` through `27x27`
+- Persistent local progress and best scores
+- A theme toggle with saved preference
+- Algebraic hints that stay correct on large boards
