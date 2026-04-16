@@ -1,8 +1,6 @@
-# Discoloration: The Matrix Puzzle
+# Discoloration
 
 Discoloration is a browser-based grid logic game inspired by the classic Lights Out puzzle. The player restores a corrupted digital matrix by toggling cells until the whole board is active.
-
-The repository is named `Discolouration`, while the app title uses `Discoloration: The Matrix Puzzle`.
 
 ## Table of contents
 
